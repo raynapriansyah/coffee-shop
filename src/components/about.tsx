@@ -32,7 +32,7 @@ export default function About() {
           {AboutItems.map((item) => (
             <CarouselItem key={item.name}>
               <h1 className="text-4xl font-bold">{item.name}</h1>
-              <div className="md:flex md:flex-row space-y-16 md:space-y-8 md:gap-8 justify-between items-center mt-12 md:p-24">
+              <div className="md:flex md:flex-row space-y-16 md:space-y-8 md:gap-8 justify-between items-center mt-12 lg:p-24">
                 <section>
                   <Image
                     priority

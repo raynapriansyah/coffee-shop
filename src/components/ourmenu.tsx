@@ -53,7 +53,7 @@ const MenuItems = [
 
 export default function OurMenu() {
   return (
-    <section className=" w-full mt-20">
+    <section className="w-full mt-20">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our Menu&apos;s</h1>
         <p className="text-sm">Order it for you or for your beloved ones</p>

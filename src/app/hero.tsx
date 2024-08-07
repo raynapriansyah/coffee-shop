@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <div>
       <Image
+        priority
         src="/images/hero-image.jpg"
         alt="hero image"
         height={1350}

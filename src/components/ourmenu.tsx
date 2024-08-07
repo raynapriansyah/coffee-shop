@@ -53,9 +53,9 @@ const MenuItems = [
 
 export default function OurMenu() {
   return (
-    <section className=" w-full space-y-8 mt-12">
+    <section className=" w-full mt-20">
       <div className="text-center">
-        <h1 className="text-2xl font-bold">Our Menu&apos;s</h1>
+        <h1 className="text-4xl font-bold">Our Menu&apos;s</h1>
         <p className="text-sm">Order it for you or for your beloved ones</p>
       </div>
       <div className="container flex justify-center p-8">

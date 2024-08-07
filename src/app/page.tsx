@@ -8,9 +8,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />
 
-      <section>
-        <OurMenu />
-      </section>
+      <OurMenu />
     </div>
   );
 }

@@ -1,6 +1,14 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Menu, ShoppingCart } from "lucide-react";
+
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "~/components/ui/sheet";
 
 const navItems = [
   { name: "Discovery", href: "/" },
@@ -13,7 +21,7 @@ export default function Navbar() {
     <div className="md:container">
       <nav className="gap-x-6 font-bold w-full flex justify-between items-center px-8 py-4">
         <section>
-          <h1>Coffee Daily</h1>
+          <h1>COFFEE DAILY</h1>
         </section>
         <section className="hidden md:flex md:justify-items-center md:gap-5 md:text-[14px]">
           {navItems.map((item) => (
@@ -25,7 +33,23 @@ export default function Navbar() {
         <section className="flex justify-items-center gap-4">
           <ShoppingCart />
           <span className="md:hidden">
-            <Menu />
+            <Sheet>
+              <SheetTrigger>
+                <Menu />
+              </SheetTrigger>
+              <SheetContent>
+                <SheetHeader>
+                  <SheetTitle className="flex flex-col gap-4 mt-8">
+                    <h1>COFFEE DAILY</h1>
+                    {navItems.map((item) => (
+                      <Link key={item.name} href={item.href}>
+                        {item.name}
+                      </Link>
+                    ))}
+                  </SheetTitle>
+                </SheetHeader>
+              </SheetContent>
+            </Sheet>
           </span>
         </section>
       </nav>

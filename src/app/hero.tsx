@@ -8,9 +8,9 @@ export default function Hero() {
         alt="hero image"
         height={1350}
         width={2400}
-        className="absolute h-screen lg:h-auto object-none object-center"
+        className="h-screen lg:h-auto object-none object-center"
       />
-      <div className="absolute bg-black/60 h-[600px] lg:h-[400px] xl:h-[600px] mt-12 py-12 mx-8 md:mt-40 lg:py-6 xl:py-24 lg:mt-12 xl:translate-x-72 xl:mt-44 xl:w-[70%]">
+      <div className="absolute top-10 md:top-0 bg-black/60 h-[600px] lg:h-[400px] xl:h-[600px] mt-12 py-12 mx-8 md:mt-40 lg:py-6 xl:py-24 lg:mt-12 xl:translate-x-72 xl:mt-44 xl:w-[70%]">
         <div className="container flex justify-center items-center flex-col space-y-12 md:space-y-20">
           <h1 className="text-white text-5xl xl:text-7xl font-bold uppercase">
             Welcome

@@ -7,8 +7,8 @@ import Testimonials from "~/components/testimonials";
 export default function HomePage() {
   return (
     <div className="">
-      <Navbar />
       <Hero />
+      <Navbar />
 
       <OurMenu />
       <About />

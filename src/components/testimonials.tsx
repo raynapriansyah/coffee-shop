@@ -17,6 +17,30 @@ const reviews = [
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "/images/about/coffee-image.jpg",
   },
+  {
+    name: "John",
+    username: "@john",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "/images/about/coffee-image.jpg",
+  },
+  {
+    name: "Jane",
+    username: "@jane",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "/images/about/coffee-image.jpg",
+  },
+  {
+    name: "Jenny",
+    username: "@jenny",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "/images/about/coffee-image.jpg",
+  },
+  {
+    name: "James",
+    username: "@james",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "/images/about/coffee-image.jpg",
+  },
 ];
 
 const firstRow = reviews.slice(0, reviews.length / 2);

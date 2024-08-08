@@ -14,13 +14,13 @@ const AboutItems = [
     image: "/images/about/about-image.jpg",
     name: "About Us",
     description:
-      "Coffee Daily was born out of a passion for exceptional coffee and a desire to create a community space where people can unwind, connect, and enjoy the simple pleasures of life. Our journey began with a commitment to quality, sustainability, and a love for the craft of coffee making.",
+      "Coffee Corner was born out of a passion for exceptional coffee and a desire to create a community space where people can unwind, connect, and enjoy the simple pleasures of life. Our journey began with a commitment to quality, sustainability, and a love for the craft of coffee making.",
   },
   {
     image: "/images/about/coffee-image.jpg",
     name: "Our Coffee",
     description:
-      "At Coffee Daily, we believe that great coffee starts with great beans. We source our coffee beans from the finest farms around the world, ensuring that each bean is ethically grown and harvested. Our expert baristas take pride in brewing each cup with precision, using state-of-the-art equipment and time-honored techniques. Whether you prefer a robust espresso, a creamy latte, or a refreshing cold brew, we have something to satisfy every palate.",
+      "At Coffee Corner, we believe that great coffee starts with great beans. We source our coffee beans from the finest farms around the world, ensuring that each bean is ethically grown and harvested. Our expert baristas take pride in brewing each cup with precision, using state-of-the-art equipment and time-honored techniques. Whether you prefer a robust espresso, a creamy latte, or a refreshing cold brew, we have something to satisfy every palate.",
   },
 ];
 

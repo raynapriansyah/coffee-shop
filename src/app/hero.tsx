@@ -2,8 +2,6 @@ import { Facebook, Instagram } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "~/components/ui/button";
-
 export default function Hero() {
   return (
     <div>
@@ -34,9 +32,9 @@ export default function Hero() {
             Section
           </h1>
           <p className="text-black/50 mt-12 text-sm md:text-md text-justify font-semibold">
-            Coffee Corner was born out of a passion for exceptional coffee and a
-            desire to create a community space where people can unwind, connect,
-            and enjoy the simple pleasures of life.
+            Coffee Section was born out of a passion for exceptional coffee and
+            a desire to create a community space where people can unwind,
+            connect, and enjoy the simple pleasures of life.
           </p>
           <section className="hidden sm:block mt-8 md:flex md:flex-row">
             <div className="text-black/50 font-bold mr-2">Contact Us |</div>

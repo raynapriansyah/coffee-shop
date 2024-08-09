@@ -3,6 +3,7 @@ import Hero from "./hero";
 import Navbar from "./navbar";
 import About from "~/components/about";
 import Testimonials from "~/components/testimonials";
+import Footer from "~/components/footer";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <OurMenu />
       <About />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
